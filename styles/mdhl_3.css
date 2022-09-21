@@ -1,0 +1,143 @@
+body {
+    background-image: url(../assets/BYNpexels-pixabay-33286.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo-container{
+    display: flex;
+    position: absolute;
+    justify-content: flex-start;  
+    top: 0px;  
+}
+
+.logo {
+    width: 190px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list-container {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 35%;
+}
+
+li {
+    padding: 10px;
+    text-align: center;
+    border-radius: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.black-button {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.yellow-button {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(235, 177, 42);
+}
+
+.h1-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 350px;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 800;
+    color: rgb(235, 177, 42);
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.textE-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    padding: 10px;
+    background-color: rgb(235, 177, 42, 0.9);
+    position: absolute;
+    top: 240px;
+    left: 390px;
+    border-radius: 7%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.textA-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%;
+    padding: 10px;
+    background-color: rgb(235, 177, 42, 0.9);
+    position: absolute;
+    top: 120px;
+    left: 360px;
+    border-radius: 7%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.textC-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(235, 177, 42, 0.9);
+    position: absolute;
+    top: 280px;
+    left: 470px;
+    border-radius: 7%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+h3 {
+    text-decoration: underline;
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.paragraph {
+    margin-top: -12px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.Aparagraph {
+    margin-top: -12px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Cparagraph {
+    margin-top: -12px;
+    font-size: 16px;
+    font-weight: 500;
+}
