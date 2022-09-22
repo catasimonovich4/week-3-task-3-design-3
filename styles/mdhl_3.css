@@ -28,7 +28,7 @@ nav {
     width: 45%;
 }
 
-li {
+nav > ul > li {
     padding: 10px;
     text-align: center;
     border-radius: 10%;
@@ -110,18 +110,54 @@ h1 {
     box-shadow: rgba(0, 0, 0, 1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-.textR-container {
+.main-rules {
+    width: 100%;
+    max-height: 100vh;
+}
+
+.textR1-container {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 90%;
-    padding: 10px;
-    background-color: rgba(235, 177, 42, 0.9);
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    width: 33%;
+    padding: 10px 10px 0px 10px;
+    background-color: rgb(235, 177, 42, 0.9);
     position: relative;
-    top: -10px;
-    left: 60px;
-    margin-top: 87px;
+    top: 50px;
+    left: 20px;
     border-radius: 7%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.textR2-container {
+    display: flex;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    width: 60%;
+    padding: 10px;
+    background-color: rgb(235, 177, 42, 0.9);
+    position: relative;
+    margin-bottom: 0px;
+    top: -169px;
+    left: 500px;
+    border-radius: 7%;
+    box-shadow: rgba(0, 0, 0, 1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.textR3-container {
+    display: flex;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    width: 33%;
+    padding: 10px 10px 0px 10px; 
+    margin-bottom: 0px;
+    background-color: rgb(235, 177, 42, 0.9);
+    position: relative;
+    top: -410px;
+    left: 20px;
+    border-radius: 9%;
+    text-align: center;
     box-shadow: rgba(0, 0, 0, 1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
@@ -132,11 +168,44 @@ h2 {
     margin-bottom: 15px;
 }
 
+.h2R-container {
+    position: relative;
+    top: 20px;
+    background-color: rgb(0,0,0, 0.9);
+    width: 60%;
+    margin-left: 300px ;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.h2R-container > h2 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.h2R-container > span {
+    color: white;
+    margin-left: 160px;
+}
+
+
 h3 {
     text-decoration: underline;
     margin-top: 0px;
     font-weight: 700;
     font-size: 20px;
+}
+
+.rule2 > h3 {
+    text-align: center;
+}
+
+h4 {
+    margin-top: 7px;
 }
 
 .paragraph {
@@ -156,3 +225,52 @@ h3 {
     font-size: 16px;
     font-weight: 500;
 }
+
+.rules-text1 {
+    margin-top: -7px;
+}
+
+.ol-rules ::marker {
+    font-weight: bold;
+}
+
+.ol-li-rules{
+    padding-bottom: 20px;
+    margin-top: 0px;
+}
+
+.rules-text2 {
+    display: inline;
+    padding-bottom: 3px;
+}
+
+.in-ol-rules {
+    margin-left: -39px;
+    margin-top: -15px;
+    list-style-type: lower-alpha;
+}
+
+.in-ol-rules ::marker {
+    font-weight: bold;
+}
+
+.rules-li-text {
+    margin: 5px 0px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.rules-text3 {
+    margin-top: -7px;
+}
+
+.circle-li {
+    list-style-position: inside;
+    list-style-type: circle;
+    margin-left: -35px;
+    margin-top: -7px;
+    
+  }
+
