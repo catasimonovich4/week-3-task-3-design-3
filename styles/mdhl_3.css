@@ -1,8 +1,17 @@
 body {
   background-image: url(../assets/BYNpexels-pixabay-33286.jpg);
   background-size: cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 100vh;
+  margin: 0%;
+}
+
+.home-logo-container {
+  display: flex;
+  justify-content: center;
 }
 
 .logo-container {
@@ -13,14 +22,38 @@ body {
   left: 0px;
 }
 
-.logo {
+.home-logo {
   width: 190px;
 }
 
-nav {
+.logo {
+  width: 70px;
+  margin-left: 200%;
+}
+
+.nav-homepage {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   position: relative;
+  width: 100%;
+}
+
+.nav-allpages {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  background-color: black;
+}
+
+.homepage-list-container {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 60%;
+  padding: 1%;
+  background-color:rgb(0, 0, 0, 0.9);
+  border-radius: 15px;
 }
 
 .list-container {
@@ -28,12 +61,12 @@ nav {
   list-style-type: none;
   justify-content: space-between;
   width: 60%;
+  background-color:rgb(0, 0, 0, 0.9);
 }
 
 nav > ul > li {
   padding: 10px;
   text-align: center;
-  border-radius: 10%;
 }
 
 a {
@@ -41,29 +74,19 @@ a {
   color: white;
 }
 
-.black-button {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  background-color: rgb(0, 0, 0);
-}
-
 .yellow-button {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background-color: rgb(235, 177, 42);
-}
-
-.h1-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  top: 260px;
+  border-radius: 5px;
 }
 
 h1 {
   font-size: 70px;
   font-weight: 800;
-  color: rgb(235, 177, 42);
-  text-shadow: black 0.1em 0.1em 0.2em;
+  color: rgb(248, 179, 18);
+  text-shadow: black 0.1em 0.1em 0.1em;
+  margin-top: 3%;
+  margin-bottom: 0%;
 }
 
 .textE-container {
@@ -73,10 +96,7 @@ h1 {
   width: 40%;
   padding: 10px;
   background-color: rgb(235, 177, 42, 0.9);
-  position: absolute;
-  top: 140px;
-  left: 390px;
-  border-radius: 7%;
+  border-radius: 15px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
@@ -88,10 +108,7 @@ h1 {
   width: 45%;
   padding: 10px;
   background-color: rgb(235, 177, 42, 0.9);
-  position: absolute;
-  top: 120px;
-  left: 360px;
-  border-radius: 7%;
+  border-radius: 15px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
@@ -103,56 +120,46 @@ h1 {
   width: 30%;
   padding: 10px;
   background-color: rgb(235, 177, 42, 0.9);
-  position: absolute;
-  top: 140px;
-  left: 460px;
-  border-radius: 3%;
+  border-radius: 15px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .textR1-container {
   display: flex;
-  /* justify-content: center; */
-  /* flex-direction: column; */
-  width: 33%;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
   padding: 10px 10px 0px 10px;
+  margin-top: 2%;
+  border-radius: 15px;
   background-color: rgb(235, 177, 42, 0.9);
-  position: absolute;
-  margin-top: 10%;
-  left: 1%;
-  border-radius: 7%;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .textR2-container {
   display: flex;
-  /* justify-content: center; */
-  /* flex-direction: column; */
-  width: 60%;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  margin-top: 2%;
   padding: 10px;
+  border-radius: 15px;
   background-color: rgb(235, 177, 42, 0.9);
-  position: absolute;
-  margin-bottom: 0px;
-  margin-top: 10%;
-  left: 38%;
-  border-radius: 7%;
   box-shadow: rgba(0, 0, 0, 1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .textR3-container {
   display: flex;
-  /* justify-content: center; */
-  /* flex-direction: column; */
-  width: 33%;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
   padding: 10px 10px 0px 10px;
-  margin-bottom: 0px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 15px;
   background-color: rgb(235, 177, 42, 0.9);
-  position: absolute;
-  margin-top: 27%;
-  left: 1%;
-  border-radius: 9%;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
@@ -161,40 +168,42 @@ h1 {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 45%;
+  align-items: center;
+  width: 50%;
   padding: 10px;
+  margin-bottom: 1%;
   background-color: rgb(235, 177, 42, 0.9);
-  position: absolute;
-  margin-top: 2%;
-  left: 48%;
-  border-radius: 7%;
+  border-radius: 15px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.moreinfo-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 2%;
 }
 
 .more-info1 {
   display: flex;
   flex-direction: column;
-  width: 33%;
+  width: 23%;
   padding: 10px;
+  border-radius: 15px;
+  margin-right: 1.5%;
   background-color: rgb(235, 177, 42, 0.9);
-  position: absolute;
-  margin-top: 19%;
-  left: 10%;
-  border-radius: 3%;
   box-shadow: rgba(0, 0, 0, 1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .more-info2 {
   display: flex;
   flex-direction: column;
-  width: 33%;
+  width: 23%;
   padding: 10px;
+  margin-left: 1.5%;
+  border-radius: 15px;
   background-color: rgb(235, 177, 42, 0.9);
-  position: absolute;
-  margin-top: 29%;
-  left: 10%;
-  border-radius: 3%;
   box-shadow: rgba(0, 0, 0, 1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
@@ -206,27 +215,26 @@ h2 {
 }
 
 .h2R-container {
-  position: absolute;
-  margin-top: 2%;
   background-color: rgb(0, 0, 0, 0.9);
   width: 60%;
-  margin-left: 300px;
   padding: 5px;
-  border-radius: 6px;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 2%;
 }
 
 .h2R-container > h2 {
   font-size: 40px;
   font-weight: 800;
-  text-align: center;
   color: white;
-  margin-bottom: 5px;
-  margin-top: 0px;
+  margin-bottom: 0%;
+  margin-top: 0%;
 }
 
 .h2R-container > span {
   color: white;
-  margin-left: 160px;
+  text-align: center;
+  margin-bottom: 1%;
 }
 
 h3 {
@@ -316,19 +324,21 @@ span {
 
 table {
   width: 70%;
-  margin-left: 90px;
   margin-bottom: 3%;
+  
 }
 
 th {
-  padding: 5px 5px;
+  padding: 7px 7px;
   text-align: center;
   background-color: rgb(0, 0, 0, 0.9);
   color: wheat;
+  font-size: 17px;
 }
 
 tr {
   text-align: center; 
+  font-size: 16px;
 }
 
 tr :hover{
@@ -338,14 +348,24 @@ tr :hover{
 td {
   border-bottom: 1px solid #ddd;
   padding: 4px 4px;
+  font-size: 17px;
 }
 
 main {
   display: flex;
   flex-direction: column;
   position: relative;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .group-info1 {
   margin: 1%;
 }
@@ -356,32 +376,41 @@ main {
 }
 
 .h2GI-container {
-  position: absolute;
-  margin-top: 9%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(0, 0, 0, 0.9);
-  width: 30%;
-  margin-left: 12%;
+  width: 45%;
   padding: 5px;
-  border-radius: 6px;
+  border-radius: 15px;
+  margin-top: 3%;
+  margin-bottom: 1%;
 }
 
 .h2GI-container > h2 {
   font-size: 40px;
   font-weight: 800;
-  text-align: center;
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+.GI-H2-span {
+  font-size: 40px;
+  font-weight: 800;
   color: white;
   margin-bottom: 5px;
   margin-top: 0px;
 }
 
 .h2A-container {
-  position: absolute;
-  margin-top: 3%;
   background-color: rgb(0, 0, 0, 0.9);
   width: 35%;
-  margin-left: 32%;
   padding: 5px;
-  border-radius: 6px;
+  border-radius: 15px;
+  margin-top: 3%;
+  margin-bottom: 1%;
 }
 
 .h2A-container > h2 {
@@ -394,13 +423,12 @@ main {
 }
 
 .h2E-container {
-  position: absolute;
-  margin-top: 3%;
   background-color: rgb(0, 0, 0, 0.9);
   width: 35%;
-  margin-left: 32%;
   padding: 5px;
-  border-radius: 6px;
+  border-radius: 15px;
+  margin-top: 4%;
+  margin-bottom: 1%;
 }
 
 .h2E-container > h2 {
@@ -413,13 +441,12 @@ main {
 }
 
 .h2C-container {
-  position: absolute;
-  margin-top: 3%;
   background-color: rgb(0, 0, 0, 0.9);
-  width: 35%;
-  margin-left: 32%;
+  width: 25%;
   padding: 5px;
-  border-radius: 6px;
+  border-radius: 15px;
+  margin-top: 3%;
+  margin-bottom: 1%;
 }
 
 .h2C-container > h2 {
@@ -431,3 +458,9 @@ main {
   margin-top: 0px;
 }
 
+.h1-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
